@@ -1,0 +1,733 @@
+0000.000 (0) Opened log file at time: Mon, 04 May 2020 04:09:36 +0000 on http://tbpph.gokcn.org
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 12.9M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 338092 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (fd) time to 2020-05-04 04:09:36
+0000.017 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1588565676) in case this run gets aborted
+0000.024 (0) Checking if we have a zip executable available
+0000.024 (0) Testing: /usr/bin/zip
+0000.029 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.031 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.031 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.032 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.032 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.038 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.039 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.042 (0) Working binary zip found: /usr/bin/zip
+0000.043 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.043 (0) Creation of backups of directories: beginning
+0000.045 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.172 (0) Total entities for the zip file: 1616 directories, 9000 files (0 skipped as non-modified), 134 MB
+0000.181 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.188 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.204 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.211 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.213 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 9000 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.377 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: size is now: 1.40 MB
+0000.383 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 600 files added (on-disk size: 1382.7 KB)
+0000.387 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 700 files added (on-disk size: 1382.7 KB)
+0000.392 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 800 files added (on-disk size: 1382.7 KB)
+0000.396 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 900 files added (on-disk size: 1382.7 KB)
+0000.400 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1000 files added (on-disk size: 1382.7 KB)
+0000.401 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 9000 files batched, 501 (1002) added so far); re-opening (prior size: 1382.7 KB)
+0000.703 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: size is now: 3.00 MB
+0000.709 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1100 files added (on-disk size: 3094.7 KB)
+0000.714 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1200 files added (on-disk size: 3094.7 KB)
+0000.718 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1300 files added (on-disk size: 3094.7 KB)
+0000.722 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1400 files added (on-disk size: 3094.7 KB)
+0000.726 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1500 files added (on-disk size: 3094.7 KB)
+0000.726 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 9000 files batched, 501 (1503) added so far); re-opening (prior size: 3094.7 KB)
+0000.896 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: size is now: 4.30 MB
+0000.903 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1600 files added (on-disk size: 4376.6 KB)
+0000.908 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1700 files added (on-disk size: 4376.6 KB)
+0000.915 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1800 files added (on-disk size: 4376.6 KB)
+0000.922 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 1900 files added (on-disk size: 4376.6 KB)
+0000.929 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2000 files added (on-disk size: 4376.6 KB)
+0000.931 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23.2 MB, 9000 files batched, 501 (2004) added so far); re-opening (prior size: 4376.6 KB)
+0001.931 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: size is now: 12.30 MB
+0001.962 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2100 files added (on-disk size: 12609.7 KB)
+0001.967 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2200 files added (on-disk size: 12609.7 KB)
+0001.972 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2300 files added (on-disk size: 12609.7 KB)
+0001.981 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2400 files added (on-disk size: 12609.7 KB)
+0001.988 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2500 files added (on-disk size: 12609.7 KB)
+0001.990 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 9000 files batched, 501 (2505) added so far); re-opening (prior size: 12609.7 KB)
+0002.188 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2600 files added (on-disk size: 13695.3 KB)
+0002.231 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2700 files added (on-disk size: 13695.3 KB)
+0002.235 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2800 files added (on-disk size: 13695.3 KB)
+0002.264 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 2900 files added (on-disk size: 13695.3 KB)
+0002.269 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3000 files added (on-disk size: 13695.3 KB)
+0002.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 9000 files batched, 501 (3006) added so far); re-opening (prior size: 13695.3 KB)
+0002.440 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3100 files added (on-disk size: 14583.4 KB)
+0002.453 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3200 files added (on-disk size: 14583.4 KB)
+0002.493 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3300 files added (on-disk size: 14583.4 KB)
+0002.498 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3400 files added (on-disk size: 14583.4 KB)
+0002.510 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3500 files added (on-disk size: 14583.4 KB)
+0002.511 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 9000 files batched, 501 (3507) added so far); re-opening (prior size: 14583.4 KB)
+0003.194 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: size is now: 18.60 MB
+0003.200 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3600 files added (on-disk size: 19050 KB)
+0003.204 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3700 files added (on-disk size: 19050 KB)
+0003.208 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3800 files added (on-disk size: 19050 KB)
+0003.212 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 3900 files added (on-disk size: 19050 KB)
+0003.216 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4000 files added (on-disk size: 19050 KB)
+0003.217 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 9000 files batched, 501 (4008) added so far); re-opening (prior size: 19050 KB)
+0003.486 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4100 files added (on-disk size: 20536.1 KB)
+0003.490 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4200 files added (on-disk size: 20536.1 KB)
+0003.494 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4300 files added (on-disk size: 20536.1 KB)
+0003.499 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4400 files added (on-disk size: 20536.1 KB)
+0003.504 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4500 files added (on-disk size: 20536.1 KB)
+0003.505 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 9000 files batched, 501 (4509) added so far); re-opening (prior size: 20536.1 KB)
+0003.770 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4600 files added (on-disk size: 22098.5 KB)
+0003.774 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4700 files added (on-disk size: 22098.5 KB)
+0003.778 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4800 files added (on-disk size: 22098.5 KB)
+0003.783 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 4900 files added (on-disk size: 22098.5 KB)
+0003.790 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5000 files added (on-disk size: 22098.5 KB)
+0003.792 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 9000 files batched, 501 (5010) added so far); re-opening (prior size: 22098.5 KB)
+0004.117 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5100 files added (on-disk size: 22980.7 KB)
+0004.122 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5200 files added (on-disk size: 22980.7 KB)
+0004.128 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5300 files added (on-disk size: 22980.7 KB)
+0004.134 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5400 files added (on-disk size: 22980.7 KB)
+0004.139 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5500 files added (on-disk size: 22980.7 KB)
+0004.142 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 9000 files batched, 501 (5511) added so far); re-opening (prior size: 22980.7 KB)
+0004.517 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5600 files added (on-disk size: 24431.2 KB)
+0004.522 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5700 files added (on-disk size: 24431.2 KB)
+0004.526 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5800 files added (on-disk size: 24431.2 KB)
+0004.531 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 5900 files added (on-disk size: 24431.2 KB)
+0004.536 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6000 files added (on-disk size: 24431.2 KB)
+0004.537 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 9000 files batched, 501 (6012) added so far); re-opening (prior size: 24431.2 KB)
+0004.765 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6100 files added (on-disk size: 25255.8 KB)
+0004.769 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6200 files added (on-disk size: 25255.8 KB)
+0004.773 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6300 files added (on-disk size: 25255.8 KB)
+0004.777 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6400 files added (on-disk size: 25255.8 KB)
+0004.781 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6500 files added (on-disk size: 25255.8 KB)
+0004.782 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.7 MB, 9000 files batched, 501 (6513) added so far); re-opening (prior size: 25255.8 KB)
+0005.533 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6600 files added (on-disk size: 30174 KB)
+0005.537 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6700 files added (on-disk size: 30174 KB)
+0005.541 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6800 files added (on-disk size: 30174 KB)
+0005.546 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 6900 files added (on-disk size: 30174 KB)
+0005.550 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7000 files added (on-disk size: 30174 KB)
+0005.551 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.4 MB, 9000 files batched, 501 (7014) added so far); re-opening (prior size: 30174 KB)
+0006.333 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7100 files added (on-disk size: 35205.4 KB)
+0006.337 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7200 files added (on-disk size: 35205.4 KB)
+0006.342 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7300 files added (on-disk size: 35205.4 KB)
+0006.347 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7400 files added (on-disk size: 35205.4 KB)
+0006.351 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7500 files added (on-disk size: 35205.4 KB)
+0006.352 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 9000 files batched, 501 (7515) added so far); re-opening (prior size: 35205.4 KB)
+0006.614 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7600 files added (on-disk size: 36559.2 KB)
+0006.621 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7700 files added (on-disk size: 36559.2 KB)
+0006.627 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7800 files added (on-disk size: 36559.2 KB)
+0006.632 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 7900 files added (on-disk size: 36559.2 KB)
+0006.638 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8000 files added (on-disk size: 36559.2 KB)
+0006.640 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 9000 files batched, 501 (8016) added so far); re-opening (prior size: 36559.2 KB)
+0006.929 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8100 files added (on-disk size: 38129 KB)
+0006.933 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8200 files added (on-disk size: 38129 KB)
+0006.938 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8300 files added (on-disk size: 38129 KB)
+0006.943 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8400 files added (on-disk size: 38129 KB)
+0006.947 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8500 files added (on-disk size: 38129 KB)
+0006.949 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 9000 files batched, 501 (8517) added so far); re-opening (prior size: 38129 KB)
+0007.368 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8600 files added (on-disk size: 40506.5 KB)
+0007.372 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8700 files added (on-disk size: 40506.5 KB)
+0007.377 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8800 files added (on-disk size: 40506.5 KB)
+0007.381 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 8900 files added (on-disk size: 40506.5 KB)
+0007.387 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip.tmp: 9000 files added (on-disk size: 40506.5 KB)
+0008.834 (0) Created plugins zip (0) - 45747.7 KB in 8.8 s (5210.8 KB/s) (sha1: da4811e8fd5c250f14ede98cc58b2126241747fb, sha256: 979b23d932b27f44d870704d4487858901a74b3609250221a09fc982f38b2464)
+0008.838 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.859 (0) Total entities for the zip file: 134 directories, 692 files (0 skipped as non-modified), 12.1 MB
+0008.865 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.870 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.874 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.878 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.883 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.883 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 692 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0009.294 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: size is now: 2.70 MB
+0009.301 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: 600 files added (on-disk size: 2812.4 KB)
+0009.391 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip.tmp: size is now: 3.80 MB
+0009.467 (0) Created themes zip (0) - 3866.9 KB in 0.6 s (6250.2 KB/s) (sha1: d6e053a3070720c5d92f54cd47a126e137922657, sha256: 861323f042f725315dcc07112554ecade58becb8134d49254f296f319d2cde1e)
+0009.469 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.472 (0) Looking for candidates to backup in: /home/gokcn152/public_html/tbpPH/wp-content/uploads
+0009.473 (0) finding files: elementor: adding to list (1)
+0009.473 (0) finding files: 2018: adding to list (2)
+0009.474 (0) finding files: wp-personal-data-exports: adding to list (3)
+0009.474 (0) finding files: 2019: adding to list (4)
+0009.475 (0) finding files: 2020: adding to list (5)
+0009.475 (0) finding files: siteground-optimizer-assets: adding to list (6)
+0009.476 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.491 (0) Total entities for the zip file: 20 directories, 123 files (0 skipped as non-modified), 6.8 MB
+0009.498 (0) Zip: backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.542 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip.tmp: size is now: 6.90 MB
+0009.661 (0) Created uploads zip (0) - 7016.8 KB in 0.2 s (40491.1 KB/s) (sha1: cc1a2959ca6a3171fa3148550a2ca2edce06c08c, sha256: 9fd28402821a8630e91d858617042cb9f583d807a34738c565064a03d7a32800)
+0009.663 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.664 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.664 (0) Looking for candidates to backup in: /home/gokcn152/public_html/tbpPH/wp-content
+0009.665 (0) finding files: plugins: skipping: this is the plugins directory
+0009.666 (0) finding files: updraft: skipping: this is the updraft directory
+0009.667 (0) finding files: uploads: skipping: this is the uploads directory
+0009.667 (0) finding files: index.php: adding to list (1)
+0009.667 (0) finding files: upgrade: skipping: excluded by options
+0009.668 (0) finding files: themes: skipping: this is the themes directory
+0009.684 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0009.694 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip.tmp: size is now: 0.00 MB
+0009.698 (0) Created others zip (0) - 0.2 KB in 0 s (12.7 KB/s) (sha1: 7ea2fce89708d92e363fad55741aaaa7e42daf7d, sha256: 2b4705053b9379bbc583aa9107c2f3210fe6f523f7ea08447c956b076383e6ac)
+0009.705 (0) Saving backup status to database (elements: 8)
+0009.708 (0) Beginning creation of database dump (WordPress DB)
+0009.709 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.723 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpb4_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1233 bytes total)
+0009.724 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.732 (0) Table wpb4_options: Total expected rows (approximate): 469
+0009.820 (0) Table wpb4_options: Total rows added: 472 in 0.09 seconds
+0009.849 (0) Table wpb4_options: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_options.table.gz - 226.2 KB)
+0009.853 (0) Table wpb4_users: Total expected rows (approximate): 0
+0009.855 (0) Table wpb4_users: Total rows added: 1 in 0.00 seconds
+0009.856 (0) Table wpb4_users: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_users.table.gz - 0.5 KB)
+0009.859 (0) Table wpb4_usermeta: Total expected rows (approximate): 27
+0009.862 (0) Table wpb4_usermeta: Total rows added: 27 in 0.00 seconds
+0009.862 (0) Table wpb4_usermeta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_usermeta.table.gz - 1.3 KB)
+0009.866 (0) Table wpb4_actionscheduler_actions: Total expected rows (approximate): 30
+0009.869 (0) Table wpb4_actionscheduler_actions: Total rows added: 30 in 0.00 seconds
+0009.869 (0) Table wpb4_actionscheduler_actions: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_actions.table.gz - 1.7 KB)
+0009.875 (0) Table wpb4_actionscheduler_claims: Total expected rows (approximate): 0
+0009.876 (0) Table wpb4_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0009.877 (0) Table wpb4_actionscheduler_claims: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_claims.table.gz - 0.4 KB)
+0009.880 (0) Table wpb4_actionscheduler_groups: Total expected rows (approximate): 0
+0009.881 (0) Table wpb4_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0009.883 (0) Table wpb4_actionscheduler_groups: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_groups.table.gz - 0.4 KB)
+0009.886 (0) Table wpb4_actionscheduler_logs: Total expected rows (approximate): 88
+0009.888 (0) Table wpb4_actionscheduler_logs: Total rows added: 88 in 0.00 seconds
+0009.889 (0) Table wpb4_actionscheduler_logs: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_logs.table.gz - 1.3 KB)
+0009.892 (0) Table wpb4_commentmeta: Total expected rows (approximate): 0
+0009.894 (0) Table wpb4_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.894 (0) Table wpb4_commentmeta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_commentmeta.table.gz - 0.4 KB)
+0009.897 (0) Table wpb4_comments: Total expected rows (approximate): 2
+0009.899 (0) Table wpb4_comments: Total rows added: 2 in 0.00 seconds
+0009.900 (0) Table wpb4_comments: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_comments.table.gz - 0.8 KB)
+0009.903 (0) Table wpb4_links: Total expected rows (approximate): 0
+0009.905 (0) Table wpb4_links: Total rows added: 0 in 0.00 seconds
+0009.906 (0) Table wpb4_links: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_links.table.gz - 0.4 KB)
+0009.908 (0) Table wpb4_postmeta: Total expected rows (approximate): 423
+0010.003 (0) Table wpb4_postmeta: Total rows added: 488 in 0.09 seconds
+0010.005 (0) Table wpb4_postmeta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_postmeta.table.gz - 358.4 KB)
+0010.007 (0) Table wpb4_posts: Total expected rows (approximate): 73
+0010.030 (0) Table wpb4_posts: Total rows added: 108 in 0.02 seconds
+0010.031 (0) Table wpb4_posts: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_posts.table.gz - 35.5 KB)
+0010.033 (0) Table wpb4_term_relationships: Total expected rows (approximate): 6
+0010.035 (0) Table wpb4_term_relationships: Total rows added: 5 in 0.00 seconds
+0010.036 (0) Table wpb4_term_relationships: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_term_relationships.table.gz - 0.4 KB)
+0010.039 (0) Table wpb4_term_taxonomy: Total expected rows (approximate): 4
+0010.041 (0) Table wpb4_term_taxonomy: Total rows added: 5 in 0.00 seconds
+0010.042 (0) Table wpb4_term_taxonomy: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_term_taxonomy.table.gz - 0.5 KB)
+0010.047 (0) Table wpb4_termmeta: Total expected rows (approximate): 0
+0010.049 (0) Table wpb4_termmeta: Total rows added: 0 in 0.00 seconds
+0010.050 (0) Table wpb4_termmeta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_termmeta.table.gz - 0.4 KB)
+0010.053 (0) Table wpb4_terms: Total expected rows (approximate): 4
+0010.054 (0) Table wpb4_terms: Total rows added: 5 in 0.00 seconds
+0010.055 (0) Table wpb4_terms: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_terms.table.gz - 0.5 KB)
+0010.057 (0) Table wpb4_yoast_seo_links: Total expected rows (approximate): 122
+0010.061 (0) Table wpb4_yoast_seo_links: Total rows added: 122 in 0.00 seconds
+0010.062 (0) Table wpb4_yoast_seo_links: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_seo_links.table.gz - 2.3 KB)
+0010.065 (0) Table wpb4_yoast_seo_meta: Total expected rows (approximate): 28
+0010.067 (0) Table wpb4_yoast_seo_meta: Total rows added: 41 in 0.00 seconds
+0010.067 (0) Table wpb4_yoast_seo_meta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_seo_meta.table.gz - 0.5 KB)
+0010.070 (0) Table wpb4_wpforms_tasks_meta: Total expected rows (approximate): 0
+0010.073 (0) Table wpb4_wpforms_tasks_meta: Total rows added: 3 in 0.00 seconds
+0010.074 (0) Table wpb4_wpforms_tasks_meta: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_wpforms_tasks_meta.table.gz - 0.5 KB)
+0010.076 (0) Table wpb4_yoast_indexable: Total expected rows (approximate): 6
+0010.078 (0) Table wpb4_yoast_indexable: Total rows added: 6 in 0.00 seconds
+0010.079 (0) Table wpb4_yoast_indexable: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_indexable.table.gz - 1.4 KB)
+0010.081 (0) Table wpb4_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0010.083 (0) Table wpb4_yoast_indexable_hierarchy: Total rows added: 0 in 0.00 seconds
+0010.083 (0) Table wpb4_yoast_indexable_hierarchy: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0010.086 (0) Table wpb4_yoast_migrations: Total expected rows (approximate): 9
+0010.087 (0) Table wpb4_yoast_migrations: Total rows added: 9 in 0.00 seconds
+0010.088 (0) Table wpb4_yoast_migrations: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_migrations.table.gz - 0.5 KB)
+0010.090 (0) Table wpb4_yoast_primary_term: Total expected rows (approximate): 0
+0010.091 (0) Table wpb4_yoast_primary_term: Total rows added: 0 in 0.00 seconds
+0010.092 (0) Table wpb4_yoast_primary_term: finishing file (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_primary_term.table.gz - 0.4 KB)
+0010.094 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_options.table.gz (1/23): adding to final database dump
+0010.154 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_users.table.gz (2/23): adding to final database dump
+0010.156 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_usermeta.table.gz (3/23): adding to final database dump
+0010.157 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_actions.table.gz (4/23): adding to final database dump
+0010.158 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_claims.table.gz (5/23): adding to final database dump
+0010.158 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_groups.table.gz (6/23): adding to final database dump
+0010.159 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_actionscheduler_logs.table.gz (7/23): adding to final database dump
+0010.160 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_commentmeta.table.gz (8/23): adding to final database dump
+0010.161 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_comments.table.gz (9/23): adding to final database dump
+0010.161 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_links.table.gz (10/23): adding to final database dump
+0010.162 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_postmeta.table.gz (11/23): adding to final database dump
+0010.259 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_posts.table.gz (12/23): adding to final database dump
+0010.281 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_term_relationships.table.gz (13/23): adding to final database dump
+0010.282 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_term_taxonomy.table.gz (14/23): adding to final database dump
+0010.282 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_termmeta.table.gz (15/23): adding to final database dump
+0010.283 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_terms.table.gz (16/23): adding to final database dump
+0010.283 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_seo_links.table.gz (17/23): adding to final database dump
+0010.284 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_seo_meta.table.gz (18/23): adding to final database dump
+0010.285 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_wpforms_tasks_meta.table.gz (19/23): adding to final database dump
+0010.286 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_indexable.table.gz (20/23): adding to final database dump
+0010.286 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_indexable_hierarchy.table.gz (21/23): adding to final database dump
+0010.287 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_migrations.table.gz (22/23): adding to final database dump
+0010.287 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db-table-wpb4_yoast_primary_term.table.gz (23/23): adding to final database dump
+0010.289 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: finished writing out complete database file (624 KB)
+0010.300 (0) Total database tables backed up: 23 (backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz, size: 643234, sha1: e1e1ba855efa25a88ee5bdfcea8593b3c3572527, sha256: 32823f992ed1f878c5ecf575fc343afd178f8d393ebb65059c450e606847f760)
+0010.309 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.309 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.310 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.311 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.311 (0) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.312 (0) Saving backup history. Total backup size: 55.9 MB
+0010.315 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.318 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0010.319 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+0010.319 (0) Google Drive: this account is not authorised
+0010.320 (0) An error condition has occurred for the first time during this job
+0010.321 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.322 (0) Number of backup sets in history: 3; groups (db): 1
+0010.324 (0) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+0010.324 (0) This backup set is the backup set just made, so will not be deleted.
+0010.324 (0) Examining (for databases) backup set with group_id=0, nonce=23a7a8c02318, datestamp=1588565295 (May 04 2020 04:08:15)
+0010.324 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.325 (0) Examining (for databases) backup set with group_id=0, nonce=0fc3030d62b0, datestamp=1588370307 (May 01 2020 21:58:27)
+0010.325 (0) 1588370307: db: this set includes a database (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-db.gz); db count is now 2
+0010.325 (0) 1588370307: db: over retain limit (2); will delete this database
+0010.325 (0) Delete file: backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-db.gz, service=googledrive
+0010.325 (0) Deleting local copy (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-db.gz)
+0010.326 (0) Google Drive: this account is not authorised
+0010.326 (0) Google Drive: delete: failed due to storage error: not_authorized (Account is not authorized.)
+0010.327 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.328 (0) Number of backup sets in history: 3; groups (files): 1
+0010.328 (0) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+0010.328 (0) This backup set is the backup set just made, so will not be deleted.
+0010.329 (0) This backup set is the backup set just made, so will not be deleted.
+0010.329 (0) This backup set is the backup set just made, so will not be deleted.
+0010.329 (0) This backup set is the backup set just made, so will not be deleted.
+0010.329 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.329 (0) Examining (for files) backup set with nonce=23a7a8c02318, datestamp=1588565295 (May 04 2020 04:08:15)
+0010.329 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.329 (0) Examining (for files) backup set with nonce=0fc3030d62b0, datestamp=1588370307 (May 01 2020 21:58:27)
+0010.329 (0) plugins: over retain limit (2); will delete this file entity
+0010.329 (0) themes: over retain limit (2); will delete this file entity
+0010.329 (0) uploads: over retain limit (2); will delete this file entity
+0010.329 (0) others: over retain limit (2); will delete this file entity
+0010.329 (0) Delete file: backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-plugins.zip, service=googledrive
+0010.330 (0) Deleting local copy (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-plugins.zip)
+0010.337 (0) Delete file: backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-themes.zip, service=googledrive
+0010.337 (0) Deleting local copy (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-themes.zip)
+0010.340 (0) Delete file: backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-uploads.zip, service=googledrive
+0010.340 (0) Deleting local copy (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-uploads.zip)
+0010.342 (0) Delete file: backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-others.zip, service=googledrive
+0010.343 (0) Deleting local copy (backup_2020-05-01-2158_The_Bible_Project_Philippines_0fc3030d62b0-others.zip)
+0010.343 (0) Google Drive: this account is not authorised
+0010.343 (0) Google Drive: delete: failed due to storage error: not_authorized (Account is not authorized.)
+0010.345 (0) This backup set is now empty; will remove from history
+0010.345 (0) Deleting log file (log.0fc3030d62b0.txt)
+0010.346 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0010.349 (0) Resume backup (12c3bc3be8a0, 0): finish run
+0010.350 (0) Decremented the semaphore (fd) by 1
+0010.350 (0) Semaphore (fd) unlocked
+0010.351 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0010.352 (0) Rescheduling resumption 1: moving to 100 seconds from now (1588565486)
+0010.354 (0) No email will/can be sent - the user has not configured an email address.
+0010.354 (0) The backup has not finished; a resumption is scheduled
+13779.487 (1) Opened log file at time: Mon, 04 May 2020 07:59:15 +0000 on http://tbpph.gokcn.org
+13779.488 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 12M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+13779.506 (1) Free space on disk containing Updraft's temporary directory: 348872 MB
+13779.508 (1) Backup run: resumption=1, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (13779s ago), job type=backup, previous check-in=10.3s
+13779.509 (1) Long time past since expected resumption time: approx expected=1588565686.8, now=1588579156, diff=13469.1
+13779.510 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+13779.511 (1) Scheduling a resumption (2) after 300 seconds (1588579455) in case this run gets aborted
+13779.520 (1) Checking if we have a zip executable available
+13779.521 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+13779.521 (1) Creation of backups of directories: already finished
+13779.522 (1) Saving backup status to database (elements: 8)
+13779.530 (1) Database dump (WordPress DB): Creation was completed already
+13779.534 (1) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13779.534 (1) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+13779.535 (1) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+13779.535 (1) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+13779.536 (1) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+13779.536 (1) Saving backup history. Total backup size: 55.9 MB
+13779.538 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+13779.539 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+13779.540 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+13779.540 (1) Google Drive: this account is not authorised
+13779.541 (1) An error condition has occurred for the first time during this job
+13779.542 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13779.543 (1) Number of backup sets in history: 3; groups (db): 1
+13779.543 (1) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+13779.544 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+13779.544 (1) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+13779.544 (1) This backup set is the backup set just made, so will not be deleted.
+13779.544 (1) Examining (for databases) backup set with group_id=0, nonce=23a7a8c02318, datestamp=1588565295 (May 04 2020 04:08:15)
+13779.544 (1) 1588565295: db: this set includes a database (backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-db.gz); db count is now 2
+13779.544 (1) 1588565295: db: over retain limit (2); will delete this database
+13779.544 (1) Delete file: backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-db.gz, service=googledrive
+13779.544 (1) Google Drive: this account is not authorised
+13779.546 (1) Google Drive: delete: failed due to storage error: not_authorized (Account is not authorized.)
+13779.547 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+13779.547 (1) Number of backup sets in history: 3; groups (files): 1
+13779.548 (1) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+13779.548 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+13779.548 (1) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+13779.548 (1) This backup set is the backup set just made, so will not be deleted.
+13779.549 (1) This backup set is the backup set just made, so will not be deleted.
+13779.549 (1) This backup set is the backup set just made, so will not be deleted.
+13779.549 (1) This backup set is the backup set just made, so will not be deleted.
+13779.549 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+13779.549 (1) Examining (for files) backup set with nonce=23a7a8c02318, datestamp=1588565295 (May 04 2020 04:08:15)
+13779.550 (1) plugins: over retain limit (2); will delete this file entity
+13779.550 (1) themes: over retain limit (2); will delete this file entity
+13779.550 (1) uploads: over retain limit (2); will delete this file entity
+13779.550 (1) others: over retain limit (2); will delete this file entity
+13779.550 (1) Delete file: backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-plugins.zip, service=googledrive
+13779.550 (1) Delete file: backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-themes.zip, service=googledrive
+13779.550 (1) Delete file: backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-uploads.zip, service=googledrive
+13779.551 (1) Delete file: backup_2020-05-04-0408_The_Bible_Project_Philippines_23a7a8c02318-others.zip, service=googledrive
+13779.551 (1) Google Drive: this account is not authorised
+13779.552 (1) Google Drive: delete: failed due to storage error: not_authorized (Account is not authorized.)
+13779.553 (1) This backup set is now empty; will remove from history
+13779.553 (1) Deleting log file (log.23a7a8c02318.txt)
+13779.554 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13779.556 (1) Resume backup (12c3bc3be8a0, 1): finish run
+13779.557 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13779.558 (1) No email will/can be sent - the user has not configured an email address.
+13779.559 (1) The backup has not finished; a resumption is scheduled
+19597.685 (2) Opened log file at time: Mon, 04 May 2020 09:36:14 +0000 on http://tbpph.gokcn.org
+19597.686 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.2M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+19597.701 (2) Free space on disk containing Updraft's temporary directory: 348448.4 MB
+19597.703 (2) Backup run: resumption=2, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (19598s ago), job type=backup, previous check-in=0.1s
+19597.704 (2) Long time past since expected resumption time: approx expected=1588579456, now=1588584974.2, diff=5518.1
+19597.704 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+19597.705 (2) Scheduling a resumption (3) after 300 seconds (1588585274) in case this run gets aborted
+19597.712 (2) Checking if we have a zip executable available
+19597.713 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+19597.713 (2) Creation of backups of directories: already finished
+19597.714 (2) Saving backup status to database (elements: 8)
+19597.723 (2) Database dump (WordPress DB): Creation was completed already
+19597.727 (2) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+19597.727 (2) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+19597.728 (2) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+19597.728 (2) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+19597.729 (2) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+19597.729 (2) Saving backup history. Total backup size: 55.9 MB
+19597.731 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+19597.733 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+19597.734 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+19597.734 (2) Google Drive: this account is not authorised
+19597.734 (2) An error condition has occurred for the first time during this job
+19597.735 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+19597.736 (2) Number of backup sets in history: 2; groups (db): 1
+19597.737 (2) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+19597.737 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+19597.737 (2) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+19597.737 (2) This backup set is the backup set just made, so will not be deleted.
+19597.737 (2) Number of backup sets in history: 2; groups (files): 1
+19597.738 (2) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+19597.738 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+19597.738 (2) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+19597.738 (2) This backup set is the backup set just made, so will not be deleted.
+19597.738 (2) This backup set is the backup set just made, so will not be deleted.
+19597.738 (2) This backup set is the backup set just made, so will not be deleted.
+19597.738 (2) This backup set is the backup set just made, so will not be deleted.
+19597.739 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+19597.739 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+19597.740 (2) Resume backup (12c3bc3be8a0, 2): finish run
+19597.741 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+19597.742 (2) No email will/can be sent - the user has not configured an email address.
+19597.743 (2) The backup has not finished; a resumption is scheduled
+20975.282 (3) Opened log file at time: Mon, 04 May 2020 09:59:11 +0000 on http://tbpph.gokcn.org
+20975.283 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+20975.295 (3) Free space on disk containing Updraft's temporary directory: 348340.9 MB
+20975.297 (3) Backup run: resumption=3, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (20975s ago), job type=backup
+20975.298 (3) Long time past since expected resumption time: approx expected=1588585274.2, now=1588586351.7, diff=1077.6
+20975.298 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+20975.299 (3) Scheduling a resumption (4) after 300 seconds (1588586651) in case this run gets aborted
+20975.303 (3) Checking if we have a zip executable available
+20975.304 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+20975.304 (3) Creation of backups of directories: already finished
+20975.305 (3) Saving backup status to database (elements: 8)
+20975.309 (3) Database dump (WordPress DB): Creation was completed already
+20975.312 (3) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+20975.317 (3) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+20975.318 (3) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+20975.318 (3) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+20975.319 (3) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+20975.319 (3) Saving backup history. Total backup size: 55.9 MB
+20975.322 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+20975.323 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+20975.323 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+20975.324 (3) Google Drive: this account is not authorised
+20975.325 (3) An error condition has occurred for the first time during this job
+20975.326 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+20975.327 (3) Number of backup sets in history: 2; groups (db): 1
+20975.327 (3) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+20975.327 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+20975.328 (3) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+20975.328 (3) This backup set is the backup set just made, so will not be deleted.
+20975.328 (3) Number of backup sets in history: 2; groups (files): 1
+20975.328 (3) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+20975.329 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+20975.329 (3) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+20975.329 (3) This backup set is the backup set just made, so will not be deleted.
+20975.330 (3) This backup set is the backup set just made, so will not be deleted.
+20975.330 (3) This backup set is the backup set just made, so will not be deleted.
+20975.330 (3) This backup set is the backup set just made, so will not be deleted.
+20975.330 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+20975.330 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+20975.332 (3) Resume backup (12c3bc3be8a0, 3): finish run
+20975.333 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+20975.334 (3) No email will/can be sent - the user has not configured an email address.
+20975.334 (3) The backup has not finished; a resumption is scheduled
+21409.337 (4) Opened log file at time: Mon, 04 May 2020 10:06:25 +0000 on http://tbpph.gokcn.org
+21409.338 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.2M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+21409.348 (4) Free space on disk containing Updraft's temporary directory: 347285 MB
+21409.350 (4) Backup run: resumption=4, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (21409s ago), job type=backup
+21409.351 (4) Scheduling a resumption (5) after 300 seconds (1588587085) in case this run gets aborted
+21409.355 (4) Checking if we have a zip executable available
+21409.355 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+21409.356 (4) Creation of backups of directories: already finished
+21409.356 (4) Saving backup status to database (elements: 8)
+21409.360 (4) Database dump (WordPress DB): Creation was completed already
+21409.362 (4) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+21409.363 (4) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+21409.363 (4) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+21409.363 (4) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+21409.364 (4) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+21409.364 (4) Saving backup history. Total backup size: 55.9 MB
+21409.366 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+21409.373 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+21409.375 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+21409.376 (4) Google Drive: this account is not authorised
+21409.376 (4) An error condition has occurred for the first time during this job
+21409.380 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+21409.381 (4) Number of backup sets in history: 2; groups (db): 1
+21409.381 (4) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+21409.382 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+21409.382 (4) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+21409.382 (4) This backup set is the backup set just made, so will not be deleted.
+21409.382 (4) Number of backup sets in history: 2; groups (files): 1
+21409.382 (4) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+21409.382 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+21409.383 (4) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+21409.383 (4) This backup set is the backup set just made, so will not be deleted.
+21409.383 (4) This backup set is the backup set just made, so will not be deleted.
+21409.384 (4) This backup set is the backup set just made, so will not be deleted.
+21409.384 (4) This backup set is the backup set just made, so will not be deleted.
+21409.384 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+21409.384 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+21409.386 (4) Resume backup (12c3bc3be8a0, 4): finish run
+21409.387 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+21409.388 (4) No email will/can be sent - the user has not configured an email address.
+21409.388 (4) The backup has not finished; a resumption is scheduled
+27831.198 (5) Opened log file at time: Mon, 04 May 2020 11:53:27 +0000 on http://tbpph.gokcn.org
+27831.199 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+27831.215 (5) Free space on disk containing Updraft's temporary directory: 347064 MB
+27831.217 (5) Backup run: resumption=5, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (27831s ago), job type=backup
+27831.218 (5) Long time past since expected resumption time: approx expected=1588587085.8, now=1588593207.7, diff=6121.9
+27831.218 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+27831.221 (5) Scheduling a resumption (6) after 300 seconds (1588593507) in case this run gets aborted
+27831.230 (5) Checking if we have a zip executable available
+27831.230 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+27831.231 (5) Creation of backups of directories: already finished
+27831.231 (5) Saving backup status to database (elements: 8)
+27831.240 (5) Database dump (WordPress DB): Creation was completed already
+27831.245 (5) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+27831.246 (5) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+27831.247 (5) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+27831.248 (5) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+27831.248 (5) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+27831.249 (5) Saving backup history. Total backup size: 55.9 MB
+27831.256 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+27831.258 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+27831.259 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+27831.260 (5) Google Drive: this account is not authorised
+27831.261 (5) An error condition has occurred for the first time during this job
+27831.263 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+27831.264 (5) Number of backup sets in history: 2; groups (db): 1
+27831.264 (5) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+27831.265 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27831.265 (5) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+27831.265 (5) This backup set is the backup set just made, so will not be deleted.
+27831.265 (5) Number of backup sets in history: 2; groups (files): 1
+27831.266 (5) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+27831.266 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27831.266 (5) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+27831.266 (5) This backup set is the backup set just made, so will not be deleted.
+27831.268 (5) This backup set is the backup set just made, so will not be deleted.
+27831.268 (5) This backup set is the backup set just made, so will not be deleted.
+27831.268 (5) This backup set is the backup set just made, so will not be deleted.
+27831.268 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27831.268 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+27831.271 (5) Resume backup (12c3bc3be8a0, 5): finish run
+27831.272 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+27831.282 (5) No email will/can be sent - the user has not configured an email address.
+27831.282 (5) The backup has not finished; a resumption is scheduled
+29800.002 (6) Opened log file at time: Mon, 04 May 2020 12:26:16 +0000 on http://tbpph.gokcn.org
+29800.003 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+29800.016 (6) Free space on disk containing Updraft's temporary directory: 348047.3 MB
+29800.018 (6) Backup run: resumption=6, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (29800s ago), job type=backup
+29800.018 (6) Long time past since expected resumption time: approx expected=1588593507.7, now=1588595176.5, diff=1668.8
+29800.019 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+29800.020 (6) Scheduling a resumption (7) after 300 seconds (1588595476) in case this run gets aborted
+29800.029 (6) Checking if we have a zip executable available
+29800.030 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+29800.032 (6) Creation of backups of directories: already finished
+29800.032 (6) Saving backup status to database (elements: 8)
+29800.045 (6) Database dump (WordPress DB): Creation was completed already
+29800.051 (6) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+29800.051 (6) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+29800.052 (6) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+29800.052 (6) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+29800.053 (6) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+29800.053 (6) Saving backup history. Total backup size: 55.9 MB
+29800.055 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+29800.056 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+29800.057 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+29800.058 (6) Google Drive: this account is not authorised
+29800.058 (6) An error condition has occurred for the first time during this job
+29800.060 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+29800.061 (6) Number of backup sets in history: 2; groups (db): 1
+29800.062 (6) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+29800.062 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+29800.062 (6) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+29800.062 (6) This backup set is the backup set just made, so will not be deleted.
+29800.063 (6) Number of backup sets in history: 2; groups (files): 1
+29800.063 (6) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+29800.063 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+29800.063 (6) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+29800.063 (6) This backup set is the backup set just made, so will not be deleted.
+29800.064 (6) This backup set is the backup set just made, so will not be deleted.
+29800.064 (6) This backup set is the backup set just made, so will not be deleted.
+29800.064 (6) This backup set is the backup set just made, so will not be deleted.
+29800.064 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+29800.065 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+29800.066 (6) Resume backup (12c3bc3be8a0, 6): finish run
+29800.068 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+29800.069 (6) No email will/can be sent - the user has not configured an email address.
+29800.070 (6) The backup has not finished; a resumption is scheduled
+38506.319 (7) Opened log file at time: Mon, 04 May 2020 14:51:22 +0000 on http://tbpph.gokcn.org
+38506.319 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.2M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+38506.333 (7) Free space on disk containing Updraft's temporary directory: 347986.2 MB
+38506.336 (7) Backup run: resumption=7, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (38506s ago), job type=backup
+38506.336 (7) Long time past since expected resumption time: approx expected=1588595476.5, now=1588603882.8, diff=8406.3
+38506.337 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+38506.338 (7) Scheduling a resumption (8) after 300 seconds (1588604182) in case this run gets aborted
+38506.344 (7) Checking if we have a zip executable available
+38506.345 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+38506.346 (7) Creation of backups of directories: already finished
+38506.346 (7) Saving backup status to database (elements: 8)
+38506.354 (7) Database dump (WordPress DB): Creation was completed already
+38506.363 (7) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+38506.363 (7) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+38506.364 (7) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+38506.364 (7) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+38506.365 (7) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+38506.365 (7) Saving backup history. Total backup size: 55.9 MB
+38506.368 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+38506.370 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+38506.370 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+38506.371 (7) Google Drive: this account is not authorised
+38506.371 (7) An error condition has occurred for the first time during this job
+38506.373 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+38506.374 (7) Number of backup sets in history: 2; groups (db): 1
+38506.374 (7) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+38506.375 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+38506.375 (7) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+38506.375 (7) This backup set is the backup set just made, so will not be deleted.
+38506.375 (7) Number of backup sets in history: 2; groups (files): 1
+38506.376 (7) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+38506.376 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+38506.377 (7) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+38506.377 (7) This backup set is the backup set just made, so will not be deleted.
+38506.377 (7) This backup set is the backup set just made, so will not be deleted.
+38506.377 (7) This backup set is the backup set just made, so will not be deleted.
+38506.377 (7) This backup set is the backup set just made, so will not be deleted.
+38506.378 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+38506.378 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+38506.380 (7) Resume backup (12c3bc3be8a0, 7): finish run
+38506.381 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+38506.382 (7) No email will/can be sent - the user has not configured an email address.
+38506.382 (7) The backup has not finished; a resumption is scheduled
+43633.665 (8) Opened log file at time: Mon, 04 May 2020 16:16:50 +0000 on http://tbpph.gokcn.org
+43633.665 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+43633.690 (8) Free space on disk containing Updraft's temporary directory: 347901.2 MB
+43633.692 (8) Backup run: resumption=8, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (43634s ago), job type=backup
+43633.693 (8) Long time past since expected resumption time: approx expected=1588604182.8, now=1588609010.1, diff=4827.3
+43633.693 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+43633.694 (8) Scheduling a resumption (9) after 300 seconds (1588609310) in case this run gets aborted
+43633.701 (8) Checking if we have a zip executable available
+43633.702 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+43633.702 (8) Creation of backups of directories: already finished
+43633.703 (8) Saving backup status to database (elements: 8)
+43633.712 (8) Database dump (WordPress DB): Creation was completed already
+43633.718 (8) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+43633.718 (8) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+43633.719 (8) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+43633.719 (8) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+43633.720 (8) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+43633.720 (8) Saving backup history. Total backup size: 55.9 MB
+43633.722 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+43633.724 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+43633.724 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+43633.725 (8) Google Drive: this account is not authorised
+43633.725 (8) An error condition has occurred for the first time during this job
+43633.727 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+43633.728 (8) Number of backup sets in history: 2; groups (db): 1
+43633.729 (8) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+43633.729 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+43633.730 (8) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+43633.730 (8) This backup set is the backup set just made, so will not be deleted.
+43633.730 (8) Number of backup sets in history: 2; groups (files): 1
+43633.730 (8) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+43633.730 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+43633.730 (8) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+43633.730 (8) This backup set is the backup set just made, so will not be deleted.
+43633.731 (8) This backup set is the backup set just made, so will not be deleted.
+43633.731 (8) This backup set is the backup set just made, so will not be deleted.
+43633.731 (8) This backup set is the backup set just made, so will not be deleted.
+43633.731 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+43633.731 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+43633.734 (8) Resume backup (12c3bc3be8a0, 8): finish run
+43633.735 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+43633.737 (8) No email will/can be sent - the user has not configured an email address.
+43633.738 (8) The backup has not finished; a resumption is scheduled
+44232.476 (9) Opened log file at time: Mon, 04 May 2020 16:26:48 +0000 on http://tbpph.gokcn.org
+44232.476 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.0.33 (cgi-fcgi, Linux sgp60.siteground.asia 3.12.18-clouder0 #1 SMP Wed Mar 28 14:22:08 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 11.1M | 14M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+44232.488 (9) Free space on disk containing Updraft's temporary directory: 347883 MB
+44232.490 (9) Backup run: resumption=9, nonce=12c3bc3be8a0, file_nonce=12c3bc3be8a0 begun at=1588565376 (44232s ago), job type=backup
+44232.491 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+44232.492 (9) Scheduling a resumption (10) after 300 seconds (1588609908); but the job will then be aborted unless something happens this time
+44232.495 (9) Creation of backups of directories: already finished
+44232.496 (9) Saving backup status to database (elements: 8)
+44232.499 (9) Database dump (WordPress DB): Creation was completed already
+44232.503 (9) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+44232.503 (9) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+44232.504 (9) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+44232.504 (9) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+44232.504 (9) backup_2020-05-04-0409_The_Bible_Project_Philippines_12c3bc3be8a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+44232.505 (9) Saving backup history. Total backup size: 55.9 MB
+44232.507 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+44232.508 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+44232.509 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-efd91f2a57bf177b3ed13f1259ebf8c3)
+44232.509 (9) Google Drive: this account is not authorised
+44232.510 (9) An error condition has occurred for the first time during this job
+44232.511 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+44232.511 (9) Number of backup sets in history: 2; groups (db): 1
+44232.512 (9) Examining (for databases) backup set with group_id=0, nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+44232.512 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+44232.512 (9) Examining (for databases) backup set with group_id=0, nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+44232.512 (9) This backup set is the backup set just made, so will not be deleted.
+44232.512 (9) Number of backup sets in history: 2; groups (files): 1
+44232.513 (9) Examining (for files) backup set with nonce=62838335e05c, datestamp=1588565393 (May 04 2020 04:09:53)
+44232.513 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+44232.513 (9) Examining (for files) backup set with nonce=12c3bc3be8a0, datestamp=1588565376 (May 04 2020 04:09:36)
+44232.513 (9) This backup set is the backup set just made, so will not be deleted.
+44232.514 (9) This backup set is the backup set just made, so will not be deleted.
+44232.514 (9) This backup set is the backup set just made, so will not be deleted.
+44232.514 (9) This backup set is the backup set just made, so will not be deleted.
+44232.514 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+44232.514 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+44232.515 (9) Resume backup (12c3bc3be8a0, 9): finish run
+44232.516 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+44232.517 (9) No email will/can be sent - the user has not configured an email address.
+44232.517 (9) The backup attempt has finished, apparently unsuccessfully
